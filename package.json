@@ -1,0 +1,21 @@
+{
+	"name": "astro-frontend-masters",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "^2.5.5"
+	},
+	"devDependencies": {
+		"@types/markdown-it": "^12.2.3",
+		"@types/react": "^18.2.7",
+		"@types/react-dom": "^18.2.4",
+		"@types/sanitize-html": "^2.9.0"
+	}
+}
