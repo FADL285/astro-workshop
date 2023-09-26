@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/default.astro';
+import ShopItems from '../components/ShopItems.astro';
+---
+
+<Layout>
+	<div class="shop">
+		<h1>Shop Sandwich Kit</h1>
+
+		<noscript>
+			<p>
+				JavaScript is required to purches things, you can call us to buy on <a
+					href="tel:+201012345678">0101234568</a
+				>
+			</p>
+		</noscript>
+
+		<div class="products">
+			<ShopItems />
+			<p>TODO: show cart</p>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.shop {
+		padding: 3rem 5%;
+	}
+
+	.products {
+		align-items: flex-start;
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: 1fr 260px;
+		position: relative;
+	}
+</style>
