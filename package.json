@@ -10,7 +10,11 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"astro": "^2.5.5"
+		"@astrojs/vue": "^3.0.0",
+		"@nanostores/vue": "^0.10.0",
+		"astro": "^3.1.4",
+		"nanostores": "^0.9.3",
+		"vue": "^3.3.4"
 	},
 	"devDependencies": {
 		"@types/markdown-it": "^12.2.3",

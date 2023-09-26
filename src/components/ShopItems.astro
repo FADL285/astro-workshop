@@ -1,24 +1,9 @@
 ---
-type ShopItem = {
-	id: number;
-	title: string;
-	description: string;
-	image: {
-		src: string;
-		alt: string;
-	};
-	price: number;
-};
-
-function formatCurrency(amount: number) {
-	return new Intl.NumberFormat('en-US', {
-		style: 'currency',
-		currency: 'USD',
-	}).format(amount);
-}
+import AddToCartBtn from '../components/AddToCartBtn.vue';
+import { formatCurrency } from '../utils';
 
 const result = await fetch(
-	'https://astro-frontend-masters-api.netlify.app/api/products'
+	'https://astro-frontend-masters-api.netlify.app/api/products',
 );
 if (!result.ok) {
 	console.error(result);
@@ -35,7 +20,7 @@ const shopItems: ShopItem[] = await result.json();
 					<h2>{item.title}</h2>
 					<p>{item.description}</p>
 					<p class="price">{formatCurrency(item.price)}</p>
-          <button>Add To Cart 🛒</button>
+					<AddToCartBtn item={item} client:only="vue" />
 				</article>
 			);
 		})

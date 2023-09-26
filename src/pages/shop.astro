@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/default.astro';
 import ShopItems from '../components/ShopItems.astro';
+import AppCart from '../components/AppCart.vue';
 ---
 
 <Layout>
@@ -17,7 +18,7 @@ import ShopItems from '../components/ShopItems.astro';
 
 		<div class="products">
 			<ShopItems />
-			<p>TODO: show cart</p>
+			<AppCart client:load />
 		</div>
 	</div>
 </Layout>
