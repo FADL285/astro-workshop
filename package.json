@@ -10,6 +10,7 @@
 		"astro": "astro"
 	},
 	"dependencies": {
+		"@astrojs/netlify": "^3.0.2",
 		"@astrojs/rss": "^3.0.0",
 		"@astrojs/vue": "^3.0.0",
 		"@nanostores/vue": "^0.10.0",
