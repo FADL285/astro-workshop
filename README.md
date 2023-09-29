@@ -25,12 +25,12 @@ Small business site that uses several of the common workflows that many (most?) 
   - Cards
     - Featured Products
   - Newsletter capture
-- Shop 
+- Shop
   - Advanced layout (nested)
   - Shared state
-    - Solid cart
-    - React item buttons (add to cart)
-    - Nano stores to share state
+    - Vue JS cart component
+    - Vue JS item buttons (add to cart) component
+    - [Nano stores](https://github.com/nanostores) to share state
 - Blog
   - Content Collections
     - Markdown
@@ -45,57 +45,57 @@ Small business site that uses several of the common workflows that many (most?) 
 - Initializing a new Astro site
 - Local development
 - Pages
-	- Supported file types
-		- Astro
-		- Markdown
-		- HTML
-	- Basic routing
-	- Links
-	- Custom 404 pages
+  - Supported file types
+    - Astro
+    - Markdown
+    - HTML
+  - Basic routing
+  - Links
+  - Custom 404 pages
 - Astro components
-	- Frontmatter
-	- Slots
+  - Frontmatter
+  - Slots
 - Layouts
-	- Basic layouts
-	- Advanced layouts
+  - Basic layouts
+  - Advanced layouts
 - Fetching data
-	- Using `fetch` in Astro and other components
-	- Loading API data
-	- Loading from a headless CMS
+  - Using `fetch` in Astro and other components
+  - Loading API data
+  - Loading from a headless CMS
 - Styling
-	- Styling in Astro components
-		- Scoped styles
-		- Global styles
-	- Astro goodies for CSS
-		- `class:list`
-		- `define:vars`
-	- Importing stylesheets
-		- local
-		- npm packages
-	- In frameworks:
-		- CSS modules
+  - Styling in Astro components
+    - Scoped styles
+    - Global styles
+  - Astro goodies for CSS
+    - `class:list`
+    - `define:vars`
+  - Importing stylesheets
+    - local
+    - npm packages
+  - In frameworks:
+    - CSS modules
 - Dynamic routes
-	- When you want to render pages once at build time
+  - When you want to render pages once at build time
 - Pagination
 - Content Collections
-	- Basic setup and config
-		- Defining a schema
-		- Custom slugs
-	- Using collections to build pages
-		- Listing pages
-		- Full entry pages
+  - Basic setup and config
+    - Defining a schema
+    - Custom slugs
+  - Using collections to build pages
+    - Listing pages
+    - Full entry pages
 - Endpoints
-	- RSS
-	- APIs
-		- Static
+  - RSS
+  - APIs
+    - Static
 - SSR Mode
-	- Dynamic routing
-  	- When you want to render pages on every request
-	- API endpoints
+  - Dynamic routing
+    - When you want to render pages on every request
+  - API endpoints
 - Image handling
-	- The `assets` directory
+  - The `assets` directory
 - Hydrating JS components
-	- `client:*` directives
-	- Using multiple frameworks
-	- Sharing state between islands
-	- Sharing state between frameworks
+  - `client:*` directives
+  - Using multiple frameworks
+  - Sharing state between islands
+  - Sharing state between frameworks
